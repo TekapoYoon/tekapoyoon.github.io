@@ -1,6 +1,34 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+#skills {
+    padding: 50px 15px;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+}
+
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 0 transparent;
   border-radius: 2px;

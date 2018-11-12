@@ -1,6 +1,6 @@
 $(document).ready(function(){
     portfolioFunc();
-    timeOutFunc()
+    timeOutFunc();
 })
 
 function pageReverse( id ) {
