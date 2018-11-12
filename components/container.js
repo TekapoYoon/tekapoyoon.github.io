@@ -33,13 +33,13 @@ function sliderFunc() {
         if (a == false) {
         $("#section").load("./components/education/education.html");
         }
-    })
+    });
     $(".info").click(function(){
         var a = $(this).hasClass("active");
         if (a == false) {
         $("#section").load("./components/info/info.html");
         }
-    })
+    });
     $(".slide-item").click(function(){
         var a = $(".slide-item").hasClass("active");
          if( a ){
