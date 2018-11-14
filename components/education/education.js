@@ -1,5 +1,8 @@
 $(document).ready(function(){
     timeOutFunc();
+    $("#1").click(function(){
+      location.href = "./components/education/certificate.pdf";
+    });
 })
 function activeItem ( e ){
     var activeId = "#" + e;
