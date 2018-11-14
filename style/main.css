@@ -151,15 +151,9 @@ html, body, div, ul, li, p, span, a {
 .skills {
   padding: 50px 15px;
   text-align: center;
-  opacity: 0;
   transition: all 0.3s;
-  transform: translateX(-50px);
 }
-.skills.active{
-  opacity: 1;
-  transform: translateX(0);
-}
-.skills.active h2 {
+.skills h2 {
   color: #374054;
   margin-bottom: 50px;
 }
