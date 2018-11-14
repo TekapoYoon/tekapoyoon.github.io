@@ -159,7 +159,7 @@ html, body, div, ul, li, p, span, a {
   opacity: 1;
   transform: translateX(0);
 }
-#skills h2 {
+#skills.active h2 {
   color: #374054;
   margin-bottom: 50px;
 }
