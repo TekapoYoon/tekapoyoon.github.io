@@ -38,6 +38,7 @@ function sliderFunc() {
         var a = $(this).hasClass("active");
         if (a == false) {
         $("#section").load("./components/info/info.html");
+        $("#skills").addClass("active");
         }
     });
     $(".slide-item").click(function(){
