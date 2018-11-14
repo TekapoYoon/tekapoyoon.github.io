@@ -31,8 +31,8 @@ function sliderFunc() {
     $(".education").click(function(){
         var a = $(this).hasClass("active");
         if (a == false) {
+        $(".skills").addClass("active");  
         $("#section").load("./components/education/education.html");
-        $(".skills").addClass("active");
         }
     });
     $(".info").click(function(){
