@@ -148,28 +148,28 @@ html, body, div, ul, li, p, span, a {
     transform: translateX(0px);
   }
 }
-#skills {
+.skills {
   padding: 50px 15px;
   text-align: center;
   opacity: 0;
   transition: all 0.3s;
   transform: translateX(-50px);
 }
-#skills.active{
+.skills.active{
   opacity: 1;
   transform: translateX(0);
 }
-#skills.active h2 {
+.skills.active h2 {
   color: #374054;
   margin-bottom: 50px;
 }
-#skills ul {
+.skills ul {
   display: block;
   margin: 0 auto;
   padding: 0;
   max-width: 800px;
 }
-#skills li {
+.skills li {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
